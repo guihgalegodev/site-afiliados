@@ -29,6 +29,7 @@
   font-size: 1.35rem;
   font-weight: 500;
   color: var(--cor-primaria);
+  text-shadow: 1px 1px #02411d;
   /* background: var(--cor-primaria);
   border-radius: 7px; */
   width: 90px;
@@ -45,6 +46,7 @@
   display: block;
   font-size: 1.3rem;
   font-weight: 400;
+  text-shadow: none;
   color: var(--cor-secundaria);
   background: transparent;
   padding: 7px;

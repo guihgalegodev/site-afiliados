@@ -22,7 +22,7 @@
 .banner-text h2 {
   color: var(--branco);
   font-style: italic;
-  /* background-color: rebeccapurple; */
+  text-shadow: 1px 1px #181818;
   max-width: 100%;
   padding: 10px;
   margin-top: 80px;
