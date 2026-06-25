@@ -1,5 +1,6 @@
 export default function initScrollHorizontalSetas() {
-  const scrollCursos = document.querySelector(".cursos-section .cursos-ebooks");
+  const scrollCursos = document.querySelector(".cursos-section .produtos-cards");
+
 
   const voltarCursos = document.querySelector("#btn-voltar-cursos");
   function voltarScrollCursos() {
@@ -13,7 +14,7 @@ export default function initScrollHorizontalSetas() {
   }
   avancarCursos.addEventListener("click", avancarScrollCursos);
 
-  const scrollEbooks = document.querySelector(".ebooks-section .cursos-ebooks");
+  const scrollEbooks = document.querySelector(".ebooks-section .produtos-cards");
 
   const voltarEbooks = document.querySelector("#btn-voltar-ebooks");
   function voltarScrollEbooks() {
