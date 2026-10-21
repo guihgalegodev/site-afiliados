@@ -98,19 +98,16 @@
     display: flex;
   }
 
-  .btn-mobile.ativo {
-    .hamburguer {
-      border-top: transparent;
-    }
+  .btn-mobile.ativo .hamburguer {
+    border-top: transparent;
+  }
+  .btn-mobile.ativo .hamburguer::before {
+    transform: rotate(135deg);
+  }
 
-    .hamburguer::before {
-      transform: rotate(135deg);
-    }
-
-    .hamburguer::after {
-      transform: rotate(-135deg);
-      top: -7px;
-    }
+  .btn-mobile.ativo .hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
   }
 
   .navegacao ul.mobile {
